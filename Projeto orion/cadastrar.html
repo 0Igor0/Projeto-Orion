@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/abas.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/cadastrar.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/res.css">
+    <link rel="stylesheet" href="css/rodapeCadastrar.css">
+    <link rel="stylesheet" href="css/responsivoCadastrar.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Foot</title>
+</head>
+<div class="sombra">
+</div>
+<header class="cabeça">
+    <div class="caixa-header">
+        <h1 id="caixaLogo"><img src="img/logoOficial.png" id="img"> </h1>
+        <div class="pesquisar">
+        </div>
+            
+                    <nav class="botoes-extra">
+                        <ul id="lista-FuncoesHeader">
+          
+                            <li id="entrarLi"><a href="cadastrar.html" style="text-decoration:none">ENTRAR</a></li>
+                            <img src="img/iconeLogin.png" id="img-icone-login" alt="">
+                        </ul>
+                    </nav>
+
+</header>
+<div class="subHeader">
+    <nav class="principais-temas">
+        <ul id="lista-TemasHeader">
+            <li id="homeLi" class="iten-lista"><a href="index.html">HOME</strong></a></li>
+            <li id="sitemaSolarLi" class="iten-lista">SISTEMA SOLAR</a></li>
+            <li id="constelacoesLi" class="iten-lista">CONSTELAÇÕES</a></li>
+            <li id="estrelasLi" class="iten-lista">ESTRELAS</a></li>
+            <li id="ASLi" class="iten-lista">ASSUNTOS VARIADOS</a></li>
+        </ul>
+    </nav>
+</div>
+<hr id="linhaDivisao">
+
+
+
+    <div class="caixaAbas">
+        <div class="abas">
+            <div class="caixaItensAbas1">
+                <div class="itensAbas">
+                    <p id="abaMercurio">Mercúrio</p>
+                    <p  id="abaVenus">Vênus</p>
+                    <p id="abaTerra">Terra</p>
+                    <p id="abaMarte">Marte</p>
+                    <p id="abaJúpiter">Júpiter</p>           
+                    <p id="abaSaturno">Saturno</p>
+                    <p id="abaUrano">Urano</p>
+                    <p id="abaNetuno">Netuno</p>
+                    </div>
+            </div>
+            <div class="caixaItensAbas2">
+                <div class="itensAbas">
+                    <p id="abaMercurio">Ursa Maior</p>
+                    <p  id="abaVenus">Ursa Menor</p>
+                    <p id="abaTerra">Cassiopéia</p>
+                    <p id="abaMarte">Cruzeiro do Sul</p>
+                    <p id="abaJúpiter">Pégaso</p>           
+                    </div>
+            </div>
+            <div class="caixaItensAbas3">
+                <div class="itensAbas">
+                    <p id="abaMercurio">Vy Canis Majoris</p>
+                    <p  id="abaVenus">V354 Cephei</p>
+                    <p id="abaTerra">WOH  G64</p>
+                    </div>
+            </div>
+            <div class="caixaItensAbas4">
+                <div class="itensAbas">
+                    <p id="abaMercurio">Estrelas cadentes</p>
+                    <p  id="abaVenus">Teoria do Big Bang</p>
+                    <p id="abaTerra">Órbitas: O que são?</p>
+                    <p id="abaMarte">Asteróides</p>
+                    </div>
+            </div>
+    
+    
+    
+        </div>
+    </div>
+
+    <div class="MAIN" id="MAIN2">
+        <div class="caixa-mainCadastrar">
+            <div class="subCaixa-main">
+    
+         
+        <!--FOI CRIADO SÓ UM FORMS PRA AMBAS AS FUNÇÕES: LOGIN E CADASTRO
+            TIVE QUE CRIAR UM FORMS A MAIS E FODI O DESIGN FOI MAL, MAS NÃO TINHA OUTRO JEITO <3
+        -->
+        <form action="php/login.php" method="post">
+
+        <div id="login-area">
+            <label for="email">Email</label>
+            <h2 class="sub-titulo-login">Login</h2>
+            <input type="email" id="email" class="input-padrao" required placeholder="E-MAIL*">
+
+          
+            <label for="Senha">Senha</label>
+            <input type="password" id="email" class="input-padrao" required placeholder="SENHA*">
+
+            <input type="submit" value="Entrar" class="enviar">
+        </div>
+
+        </form>
+
+       
+           
+        <form action="php/cadastrar.php" method="post">
+        
+        <div id="cadastro-area">
+            <h2 class="sub-titulo-cadastro">Cadastra-se</h2>
+            <hr size="680" width="0.01" id="HR">
+
+
+
+ 
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" name="nome" required placeholder="NOME*">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" name="telefone" required placeholder="(XX) XXXXX-XXXX">
+
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" name="email" required placeholder="E-MAIL*">
+
+            <label for="email">Confirme seu Email</label>
+            <input type="email" id="email" class="input-padrao" name="confirma_email" required placeholder="CONFIRME SEU E-MAIL*">
+
+          
+            <label for="Senha">Senha</label>
+            <input type="password" id="email" class="input-padrao" name="senha" required placeholder="SENHA*">
+
+            <label for="Senha">Confirme sua Senha</label>
+            <input type="password" id="email" class="input-padrao" name="confirma_senha" required placeholder="CONFIRME SUA SENHA*">
+
+       
+                  <label class="checkbox"><input type="checkbox" name="novidades" checked>Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Crie Sua Conta" class="enviar">
+        </div>
+        </form>
+    </div>
+    </div>
+    <div id="MAIN2"></div>
+    <div id="imagemCarrocel2"></div>
+    <div id="caixa-mainArtigo2"></div>
+    <div class="imagemCarrocel" id="imagemCarrocel2"></div>
+    </div>
+<br><br><br><br><br><br>
+    <div class="footer">
+        <!--<h1 id="caixa-logo"><img src="img/logo.png" class="logo"></h1>
+        <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+    </div>
+-->
+
+
+<footer>
+    <div class="caixa-header">
+        <img src="img/logoOficial.png" class="logoRodape">
+        <div class="subRodape">
+            <nav class="principais-temas">
+                <ul id="lista-TemasRodape">
+                    <li id="lancamentosLi" class="iten-lista">Sugestão de temas</a></li>
+                    <li id="estrelasLi" class="iten-lista">Contato: orion.plataformaetec@gmail.com</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="subFooter">
+        <div class="caixaFooter"><p>© Copyright - ORION - Todos os direitos reservados</p></div>
+    </div>
+</footer>
+
+<script src="js/abas.js"></script>
+<script src="js/mobile-navbar.js"></script>
+<script src="js/carrossel.js"></script>
+
+
+
+
+
+</body>
+</html>

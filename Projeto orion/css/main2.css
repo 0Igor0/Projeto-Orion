@@ -1,0 +1,224 @@
+.caixa-mainULT {
+    top: 700px;
+	position: relative;
+    width: 1300px;
+    height: 1000px;
+    margin: 0 auto;
+
+}
+
+.subCaixa-mainULT{
+
+
+	position: relative;
+    width: 95%;
+    height: 1000px;
+    margin: 0 auto;
+
+}
+
+.ULTcaixaBranca{
+    position: absolute;
+    margin-top: 120px;
+    left: -2px;
+
+    width: 32.4%;
+    height: 350px;
+  
+    background-color: #ffffff;
+    box-shadow: 0px 0.7px 5px rgba(0,0,0,0.5);
+    border-radius: 10px;
+
+}
+.ULTcaixaBranca :hover{
+
+    
+}
+.ULTcaixaBranca1{
+    left: -2px;
+}
+
+.ULTcaixaBranca2{
+    left: 420px;
+}
+
+.ULTcaixaBranca3{
+  
+    left: 840px;
+}
+
+#ULTYoutube-img{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    border-radius: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.lixo{
+    position: absolute;
+    top: 2000px;
+}
+#rodape-imgPrincipal-MainUlT1{
+    position: absolute;
+    margin-top: 205px;
+    cursor: pointer;
+    width: 100%;
+    height: 500px;
+
+
+
+}
+#rodape-imgPrincipal-MainUlT2{
+    position: absolute;
+    margin-top: 205px;
+    cursor: pointer;
+    width: 100%;
+    height: 200px;
+
+}
+#rodape-imgPrincipal-MainUlT21{
+    position: absolute;
+    margin-top: 205px;
+    cursor: pointer;
+    width: 100%;
+    height: 200px;
+}
+#rodape-imgPrincipal-MainUlT3{
+    position: absolute;
+    margin-top: 205px;  
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+
+}
+.titulo-rodapeULT{
+    color: #3d023cff;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.subtitulo-rodapeULT{
+    margin-top: 8px;
+    
+    color: rgb(39, 39, 39);
+    font-size: 13pt;
+}
+
+.titulo-ultimosULT{
+    margin-top: 40px;
+    position: absolute;
+    text-align: center;
+    left: 500px;
+}
+.titulo-ultimosULT, h1{
+    color: #3d023cff;
+    font-size: 23pt;
+    font-weight: bold;
+}
+
+#caixaZoom3{
+    position: absolute;
+   z-index: 11;
+    width: 100%;
+    height: 200px;
+}
+
+.caixaYT{
+    position: absolute;
+    top: 500px;
+    box-shadow: 0px 0.7px 5px rgba(0,0,0,0.5);
+    width: 400px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.imgYT{
+    position: relative;
+    width: 35%;
+    height: 99.5%;
+    border-radius: 5px;;
+ 
+   
+}
+
+.sombraImg{
+    z-index: 5;
+    position: absolute;
+    width: 35%;
+    height: 99.5%;
+    background-color:rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.sombraImg:hover{
+    transition: 0.5s all;
+    background-color:rgba(0,0,0,0);
+}
+.tituloYT{
+    position: relative;
+    
+    font-size: 13pt;
+}
+.paragrafoYT{
+    margin-top: 20px;
+}
+.caixaYT p{
+    position: relative;
+    font-size: 11pt;
+    margin-top: 150px;
+    top: 12px;
+}
+.subCaixa{
+    position: absolute;
+    top: 5px;
+    width: 260px;
+ 
+    height: 100%;
+    left: 150px;
+}
+.botaoPlay{
+    position: absolute;
+    width: 30%;
+    top: 30px;
+    left: 13px;
+    opacity: 0.7;
+    z-index: 3;
+}
+.botaoPlay:hover{
+    transition: 0.5s all;
+    opacity: 1;
+}
+#caixaYT1{
+    margin-top: 100px;
+}
+#caixaYT2{
+    margin-top: 100px;
+    margin-left: 420px;
+}
+
+#caixaYT3{
+    margin-top: 100px;
+    margin-left: 841px;
+}
+#caixaYT4{
+    margin-top: 275px;
+}
+#caixaYT5{
+    margin-top: 275px;
+    margin-left: 420px;
+}
+#caixaYT6{
+    margin-top: 275px;
+    margin-left: 841px;
+}
+
+.TituloVideosYT{
+    position: absolute;
+    top: 525px;
+}
+.TituloVideosYT h1{
+    font-size: 18pt;
+}

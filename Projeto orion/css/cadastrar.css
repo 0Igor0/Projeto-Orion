@@ -1,0 +1,131 @@
+form{
+	background-color: #FFFFFF;
+}
+body{
+	color: #3d023cff;
+}
+#HR{
+	position: absolute;
+	top: -40px;
+	left: -100px;
+}
+#cadastro-area{
+	position: absolute;
+	width: 540px;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-left: 750px;
+	height: 50%;
+}
+#login-area{
+	position: absolute;
+	width: 940px;
+	margin-left: 250px;
+}
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 30%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+
+	padding: 15px 0;
+	background: #3d023cff;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	width: 200px;
+}
+
+.enviar:hover {
+	background: #3d023cff;
+	transform: scale(1.1);
+}
+
+
+#hrHorizontal{
+	margin-top: -50px;
+	position: absolute;
+	margin-left: -100px;
+	background-color: rgb(123, 1, 121);
+	width: 0.1px;
+}
+.sub-titulo-cadastro{
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: -50px;
+	position: absolute;
+	Font-family: Consolas, monaco, monospace;
+}
+.sub-titulo-login{
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: -75px;
+	position: absolute;
+	Font-family: Consolas, monaco, monospace;
+}
+.caixa-mainCadastrar {
+    top: 170px;
+	position: relative;
+    width: 1300px;
+    height: 800px;
+    margin: 0 auto;
+
+   background-color: 2px solid;
+    z-index: 7;
+}
+
+.caixa-main {
+    top: 60px;
+	position: relative;
+    width: 1300px;
+    height: 800px;
+    margin: 0 auto;
+
+   background-color: 2px solid;
+    z-index: 7;
+}
+
+.subCaixa-main{
+	position: relative;
+    width: 95%;
+    height: 800px;
+    margin: 0 auto;
+}
+#linhaDivisao{
+    border: 0;
+    border-top: 6px solid #3d023cff;
+}
+
+.abas{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -40px;
+    width: 1000px;
+    height: 100px;
+    background-color: #6cdde9;
+    z-index: 5;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    transition: 2s all;
+    display: inline;
+}
+
+
+

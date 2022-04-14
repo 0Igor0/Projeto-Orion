@@ -1,0 +1,162 @@
+<?php
+    
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="css/carrosel.css">
+    <link rel="stylesheet" href="css/abas.css">
+    <link rel="stylesheet" href="css/artigo.css">
+    <link rel="stylesheet" href="css/artigoMarte.css">
+    <link rel="stylesheet" href="css/rodapeArtigo.css">
+    <link rel="stylesheet" href="css/sugeestao.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Ajuda | Orion</title>
+</head>
+<body>
+    
+    <div class="sombra">
+    </div>
+    <header class="cabeça">
+        <div class="caixa-header">
+            <h1 id="caixaLogo"><img src="img/logoOficial.png" id="img"> </h1>
+            <div class="pesquisar">
+            </div>
+                
+                        <nav class="botoes-extra">
+                            <ul id="lista-FuncoesHeader">
+              
+                                <li id="entrarLi"><a href="cadastrar.html" style="text-decoration:none">ENTRAR</a></li>
+                                <img src="img/iconeLogin.png" id="img-icone-login" alt="">
+                            </ul>
+                        </nav>
+    </header>
+    <div class="subHeader">
+        <nav class="principais-temas">
+            <ul id="lista-TemasHeader">
+                <li id="homeLi" class="iten-lista"><a href="index.html">HOME</strong></a></li>
+                <li id="sitemaSolarLi" class="iten-lista">SISTEMA SOLAR</a></li>
+                <li id="constelacoesLi" class="iten-lista">CONSTELAÇÕES</a></li>
+                <li id="estrelasLi" class="iten-lista">ESTRELAS</a></li>
+                <li id="ASLi" class="iten-lista">ASSUNTOS VARIADOS</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="caixaAbas">
+        <div class="abas">
+            <div class="caixaItensAbas1">
+                <div class="itensAbas">
+                    <p id="abaMercurio">Mercúrio</p>
+                    <p  id="abaVenus">Vênus</p>
+                    <p id="abaTerra">Terra</p>
+                    <p id="abaMarte">Marte</p>
+                    <p id="abaJúpiter">Júpiter</p>           
+                    <p id="abaSaturno">Saturno</p>
+                    <p id="abaUrano">Urano</p>
+                    <p id="abaNetuno">Netuno</p>
+                    </div>
+            </div>
+            <div class="caixaItensAbas2">
+                <div class="itensAbas">
+                    <p id="abaMercurio">Ursa Maior</p>
+                    <p  id="abaVenus">Ursa Menor</p>
+                    <p id="abaTerra">Cassiopéia</p>
+                    <p id="abaMarte">Cruzeiro do Sul</p>
+                    <p id="abaJúpiter">Pégaso</p>           
+                    </div>
+            </div>
+            <div class="caixaItensAbas3">
+                <div class="itensAbas">
+                    <p id="abaMercurio">Vy Canis Majoris</p>
+                    <p  id="abaVenus">V354 Cephei</p>
+                    <p id="abaTerra">WOH  G64</p>
+                    </div>
+            </div>
+            <div class="caixaItensAbas4">
+                <div class="itensAbas">
+                    <p id="abaMercurio">Estrelas cadentes</p>
+                    <p  id="abaVenus">Teoria do Big Bang</p>
+                    <p id="abaTerra">Órbitas: O que são?</p>
+                    <p id="abaMarte">Asteróides</p>
+                    </div>
+            </div>
+    </div>
+    
+    
+        </div>
+
+
+        <hr id="linhaDivisao">
+        <div class="MAIN" id="MAIN2">
+            <div class="imagemCarrocel" id="imagemCarrocel2"></div>
+    <div class="caixa-mainArtigo" id="caixa-mainArtigo2">
+    <main>
+        <div class="titulo" id="tituloSugestao">
+            <b>Aprenda sobre as Estrelas</b>
+        </div>      
+<div class="caixa-main">
+    <div class="subCaixa-main">
+      
+
+
+
+        <form action="verifica_sugestao.php" method="post">
+        
+            <label for="nome">Nome</label><br>
+            <input type="text" name="nome" id="" required><br><br>
+    
+    
+            <label for="email"><b>Email<b></label><br>
+            <input type="email" name="email" id="" required><br><br>
+    
+            <label for="sugestao">Contate-nos</label><br>
+            <textarea name="sugestao" id="" cols="40" rows="10"  required placeholder="Digite aqui sua dúvida, sugestão ou reporte um bug..."></textarea><br><br>
+    
+            <input type="submit" value="ENVIAR" name="enviar" class="enviar">        
+        </form>
+
+
+
+    </div>
+    </div>
+
+
+
+    </main>
+
+    <br><br><br><br>
+
+</div>
+    <footer>
+        <div class="caixa-header">
+            <img src="img/logoOficial.png" class="logoRodape">
+            <div class="subRodape">
+                <nav class="principais-temas">
+                    <ul id="lista-TemasRodape">
+                        <li id="lancamentosLi" class="iten-lista">Sugestão de temas</a></li>
+                        <li id="estrelasLi" class="iten-lista">Contato: orion.plataformaetec@gmail.com</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="subFooter">
+            <div class="caixaFooter"><p>© Copyright - ORION - Todos os direitos reservados</p></div>
+        </div>
+    </footer>
+    <script src="js/abas.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/carrossel.js"></script>
+</body>
+</html>

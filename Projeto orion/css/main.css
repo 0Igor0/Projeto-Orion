@@ -1,0 +1,358 @@
+.caixa-main {
+    top: 700px;
+	position: relative;
+    width: 1300px;
+    height: 800px;
+    margin: 0 auto;
+
+   background-color: 2px solid;
+    z-index: 7;
+}
+
+.subCaixa-main{
+	position: relative;
+    width: 95%;
+    height: 800px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: white;
+}
+
+.body2{
+    background-color: #f4f4f4;
+    position: absolute;
+    top: 520px;
+    width: 100%;
+    height: 1200px;
+    z-index: -1;   
+
+}
+
+#img-principal{
+    position: absolute;
+    top: 20px;
+    left: -280px;
+    width: 650px;
+    height: 400px;
+}
+.BotaoSaibaMais{
+
+  position: absolute;
+  border-radius: 5px;
+  bottom: 30px;
+  height: 40px;
+  width: 180px;
+  text-align: center;
+  font-size: 20pt;
+  left: 14%;
+  background-color: #21c3d4;
+
+
+}
+.rodape-imgPrincipal{
+    position: absolute;
+    top: 450px;
+    height: 400px;
+    width: 1100px;
+    bottom: 0px;
+    left: 14%;
+    text-align: left;
+  }
+
+
+.BotaoSaibaMais p{
+  color: #3d023cff;
+  left: 20px;
+  top: 5px;
+  position: absolute;
+
+}
+
+.BotaoSaibaMais:hover{
+    cursor: pointer;
+}
+
+.rodape-imgPrincipal p{
+    color: white;
+    font-size: 25pt;
+    
+}
+
+.zoom{
+    overflow: hidden; /* não deixa a imagem se expandir na hora do zoom*/
+    cursor: pointer;
+}
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
+
+.img-responsive{
+
+    position: relative;
+    
+	width: 100%;
+	height: 500px;
+    border-radius: 2px;
+     z-index: 2;
+
+
+}
+
+#caixaZoom1{
+    position: absolute;
+    top: 30px;
+
+    width: 45%;
+	height: 500px;
+}
+
+#caixaZoom2{
+    position: relative;
+    top: 28px;
+    width: 300px;
+    height: 200px;
+
+}
+.titulo{
+    position: absolute;
+    font-size: 15pt;
+    color: #3d023cff;
+    font-weight: bold;
+}
+#costelacao-img{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 350px;
+
+    border-radius: 2px;
+}
+#rodape-costelacao{
+    position: absolute;
+    top: 560px;
+ 
+}
+
+#linhaDivisao{
+    border: 0;
+    border-top: 6px solid #3d023cff;
+}
+
+#lixo{
+position: absolute;
+top: 1000px;
+}
+
+.caixaBranca1{
+    position: absolute;
+    top: 30px;
+    left: -2px;
+    border-radius: 10px;
+    width: 45%;
+    height: 700px;
+  cursor: pointer;
+    background-color: white;
+    box-shadow: 0px 0.7px 5px rgba(0,0,0,0.5);
+}
+
+#rodape-imgPrincipal-Main{
+    position: absolute;
+    top: 545px;
+    width: 45%;
+    height: 500px;
+    z-index: 2;
+cursor: pointer;
+}
+.titulo-rodape{
+    color: #3d023cff;
+    font-size: 20pt;
+    font-weight: bold;
+}
+.subtitulo-rodape{
+   margin-top: 13px;
+    
+    color: rgb(39, 39, 39);
+    font-size: 15pt;
+}
+
+
+.caixa-secundaria{
+    position: absolute;
+    width: 300px;
+    height: 320px;
+
+cursor: pointer;
+}
+.imgCaixaSecundaria{
+
+
+    width: 305px;
+    height: 200px;
+
+    
+}
+.rodapeCaixaSecundaria{
+    margin-top: 35px;
+    font-size: 15pt;
+    font-weight: bold;
+  
+}
+.caixabrancaSecundaria{
+    position: absolute;
+    top: 27px;
+    width: 300px;
+    height: 310px;
+    background: white;
+    z-index: -1;
+    left: -1px;
+    border-radius: 10px;
+    box-shadow: 0px 0.7px 5px rgba(0,0,0,0.5);
+}
+
+.caixa-terciaria{
+    margin-top: 380px;
+    width: 20%;
+    height: 102px;
+    cursor: pointer;
+}
+.imgCaixaTerciaria{
+    z-index: -1;
+    width: 110px;
+    height: 101.5px;
+    top: 20px;
+}
+.tituloTerciario{
+    position: absolute;
+    font-size: 10pt;
+    color: white;
+    font-weight: bold;
+    left: 0;
+    background-color: #3d023cff;
+    background-size: cover;
+    padding: 7px;
+ 
+}
+.rodapeCaixaTerciaria{
+    position: absolute;
+    left: 113px;
+    width: 190px;
+    height: 102px;
+    top: -1px;
+}
+.textoTerciario{
+    position: absolute;
+    top: 27px;
+    font-weight: bold;
+}
+.caixabrancaTerciaria{
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 102px;
+    background: white;
+    z-index: -1;
+    border-radius: 2px;
+    box-shadow: 0px 0.7px 5px rgba(0,0,0,0.5);
+}
+#caixa1{
+    position: absolute;
+
+    left: 600px;
+}
+#caixa2{
+    position: absolute;
+    left: 930px;
+}
+
+
+#caixaTer1{
+    position: absolute;
+    left: 600px;
+    top: 105px;
+}
+#caixaTer2{
+    position: absolute;
+    top: -20px;
+    left: 600px;
+}
+    #caixaTer3{
+    position: absolute;
+    top: -20px;
+    left: 930px;
+}
+#caixaTer4{
+    position: absolute;
+    top: 105px;
+    left: 930px;
+}
+#caixaTer5{
+    position: absolute;
+    top: 230px;
+    left: 930px;
+}
+
+#caixaTer6{
+    position: absolute;
+    top: 232px;
+    left: 600px;
+}
+
+
+.titulo-ultimos{
+
+    top: 900px;
+    position: absolute;
+    text-align: center;
+    left: 500px;
+}
+.titulo-ultimos p{
+    color: #3d023cff;
+    font-size: 23pt;
+    font-weight: bold;
+}
+
+.bordaColorida{
+    position: absolute;
+
+
+    width: 122%;
+    height: 100%;
+    border: #3d023cff solid 6px;
+
+}
+
+.rodapeTer{
+    background-color: #3d023cff;
+    height: 30px;
+    width: 104.2%;
+    left: -6px;
+    position: absolute;
+    bottom: -25px;
+    text-align: center;
+}
+.rodapeTer p{
+position: absolute;
+    top: 5px;
+    left: 100px;
+font-size: 18px;
+color: #ffffff;
+}
+a.link{
+    background-color: transparent;
+    z-index: -22;
+    text-decoration: none;
+    display: block;
+    
+}

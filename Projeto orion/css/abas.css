@@ -1,0 +1,72 @@
+.caixaAbas{
+    position: relative;
+	width: 940px;
+    left: 0px;
+    margin: 0 auto;   
+  
+}
+.abas{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -40px;
+    width: 1000px;
+    height: 250px;
+    background-color: #6cdde9;
+    z-index: 5;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    transition: 2s all;
+    display: inline;
+}
+
+.itensAbas p{
+
+    position: absolute;
+    font-size: 13pt;
+    color: #3d023cff;
+    font-weight: bold;
+
+}
+.itensAbas :hover{
+
+  
+    color: white;
+
+    cursor: pointer;
+    text-decoration: underline;
+}
+#abaMercurio{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#abaVenus{
+    margin-top: 20px;
+    margin-left: 220px;
+}
+#abaTerra{
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+#abaMarte{
+    margin-top: 20px;
+    margin-left: 580px;
+}
+
+
+#abaJúpiter{
+    margin-top: 20px;
+    margin-left: 760px;
+}
+#abaSaturno{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+#abaUrano{
+    margin-top: 70px;
+    margin-left: 220px;
+}
+#abaNetuno{
+    margin-top: 70px;
+    margin-left: 400px;
+}

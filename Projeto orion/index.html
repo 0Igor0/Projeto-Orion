@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="css/abas.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="css/carrosel.css">
+    <link rel="stylesheet" href="css/rodape.css">
+   <link rel="stylesheet" href="css/res.css">
+   <link rel="stylesheet" href="css/responsivo.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Foot</title>
+</head>
+<body>
+    
+    <div class="sombra">
+    </div>
+    <header class="cabeça">
+        <div class="caixa-header">
+            <h1 id="caixaLogo"><img src="img/logoOficial.png" id="img"> </h1>
+            <div class="pesquisar">
+            </div>
+                
+                        <nav class="botoes-extra">
+                            <ul id="lista-FuncoesHeader">
+              
+                                <li id="entrarLi"><a href="cadastrar.html" style="text-decoration:none">ENTRAR</a></li>
+                                <img src="img/iconeLogin.png" id="img-icone-login" alt="">
+                            </ul>
+                        </nav>
+
+    </header>
+    <div class="subHeader">
+        <nav class="principais-temas">
+            <ul id="lista-TemasHeader">
+                <li id="homeLi" class="iten-lista"><a href="index.html">HOME</strong></a></li>
+                <li id="sitemaSolarLi" class="iten-lista">SISTEMA SOLAR</a></li>
+                <li id="constelacoesLi" class="iten-lista">CONSTELAÇÕES</a></li>
+                <li id="estrelasLi" class="iten-lista">ESTRELAS</a></li>
+                <li id="ASLi" class="iten-lista">ASSUNTOS VARIADOS</a></li>
+            </ul>
+        </nav>
+    </div>
+    <hr id="linhaDivisao">
+   
+    <main>
+      
+
+    
+<div class="slideshow-container"> 
+    <div class="caixaAbas">
+    <div class="abas">
+        <div class="caixaItensAbas1">
+            <div class="itensAbas">
+                <p id="abaMercurio">Mercúrio</p>
+                <p  id="abaVenus">Vênus</p>
+                <p id="abaTerra">Terra</p>
+                <p id="abaMarte" onclick="linkMarte()">Marte</p>
+                <p id="abaJúpiter">Júpiter</p>           
+                <p id="abaSaturno" onclick="linkSaturno()">Saturno</p>
+                <p id="abaUrano">Urano</p>
+                <p id="abaNetuno">Netuno</p>
+                </div>
+        </div>
+        <div class="caixaItensAbas2">
+            <div class="itensAbas">
+                <p id="abaMercurio">Ursa Maior</p>
+                <p  id="abaVenus">Ursa Menor</p>
+                <p id="abaTerra">Cassiopéia</p>
+                <p id="abaMarte">Cruzeiro do Sul</p>
+                <p id="abaJúpiter">Pégaso</p>           
+                </div>
+        </div>
+        <div class="caixaItensAbas3">
+            <div class="itensAbas">
+                <p id="abaMercurio">Vy Canis Majoris</p>
+                <p  id="abaVenus">V354 Cephei</p>
+                <p id="abaTerra">WOH  G64</p>
+                </div>
+        </div>
+        <div class="caixaItensAbas4">
+            <div class="itensAbas">
+                <p id="abaMercurio">Estrelas cadentes</p>
+                <p  id="abaVenus">Teoria do Big Bang</p>
+                <p id="abaTerra">Órbitas: O que são?</p>
+                <p id="abaMarte">Asteróides</p>
+                </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+    <div class="mySlides fade">
+        <div>
+            <div class="rodape-imgPrincipal"><p>Constelações desempenharam importante papel durante as navegações! Quer saber como?</p></div>
+        </div>
+           
+      <img class="imagemCarrocel" src="img/plutaojpg.jpg">
+      <div class="BotaoSaibaMais"><p>Saiba Mais</p></div>
+   
+    </div>
+  
+    <div class="mySlides fade">
+      <img class="imagemCarrocel" src="img/costelacoes.jfif" >
+      <div class="BotaoSaibaMais"><p>Saiba Mais</p></div>
+      <div class="rodape-imgPrincipal"><p>Existem diversos tipos de estrelas que estão espalhadas no espaço! Que tal conhecê-las?</p></div>
+    </div>
+  
+    <div class="mySlides fade">
+      
+      <img  class="imagemCarrocel" src="img/sistema solar.jpg">
+      <div class="BotaoSaibaMais"><p>Saiba Mais</p></div>
+      <div class="rodape-imgPrincipal"><p>Você quer entender sobre o sistema solar em que habitamos? clique para saber mais!</p></div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+ 
+       
+
+  <div class="caixa-main">
+    <div class="subCaixa-main">
+
+
+
+ 
+    <div class="titulo"><b>Aprenda sobre as Estrelas</b></div>      
+    <div class="zoom" id="caixaZoom1">
+        <img src="img/sol.jpg" id="estrela-img" alt="" class="img-responsive"  onclick="linkSol()">
+    </div>
+
+    <div id="rodape-imgPrincipal-Main" onclick="linkSol()">
+    <p class="titulo-rodape">
+        Sol - O imperador do sistema solar
+    <p class="subtitulo-rodape">
+        Estrelas são grandes esferas de plasma, mantidas por sua própria gravidade. O Sol é a mais famosa estrela do nosso planeta, por ser o centro do sistema em que vivemos. Para saber mais sobre esse astro da Via Láctea, clique aqui!
+    </p>
+    </p></div>
+    <div class="caixaBranca1">
+</div>
+
+   <div class="caixa-secundaria" id="caixa1">
+   
+    <div class="titulo">Constelação de Órion
+    </div>   
+    <div class="zoom" id="caixaZoom2">
+    <img src="img/ConstelaçãoÓrion2.png" class="imgCaixaSecundaria imagem" class="imagem">
+    </div>
+    <div class="caixabrancaSecundaria"></div>     
+    <div class="rodapeCaixaSecundaria">Uma das principais constelações do planeta, ligada ao tempo e às pirâmides do Egito.</div>
+   </div>     
+   
+
+   <div class="caixa-secundaria" id="caixa2" onclick="linkMarte()">
+    <div class="titulo">Marte</div>
+    <div class="zoom" id="caixaZoom2">
+    <img src="img/marte.jpg" class="imgCaixaSecundaria imagem">
+</div>
+    <div class="caixabrancaSecundaria"></div>     
+    <div class="rodapeCaixaSecundaria">Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema Solar.</div>
+   </div>     
+
+   <div class="caixa-terciaria" id="caixaTer1">
+    <div class="bordaColorida" id="bordaColorida1"><div class="rodapeTer"><p>Saiba Mais!</p></div></div>
+    <div class="tituloTerciario">Lua</div>
+    <img src="img/lua.jfif" class="imgCaixaTerciaria imagem">
+    <div class="caixabrancaTerciaria" id="gp1"></div>
+    <div class="rodapeCaixaTerciaria"><p class="textoTerciario">A Lua é o único satélite natural da Terra e o quinto maior da galáxia.</p></div>
+
+   
+   </div>
+     
+   <div class="caixa-terciaria" id="caixaTer2" onclick="linkMov()">
+    <div class="bordaColorida" id="bordaColorida2"><div class="rodapeTer"><p>Saiba Mais!</p></div></div>
+    <div class="tituloTerciario">Movim. da Terra</div>
+    <img src="img/RotTrans.png" class="imgCaixaTerciaria imagem">
+    <div class="caixabrancaTerciaria" id="gp1"></div>
+    <div class="rodapeCaixaTerciaria"><p class="textoTerciario">Conheça mais sobre os movimentos que ditam as horas e as estações do ano!</p></div>
+
+   
+   </div>
+
+   <div class="caixa-terciaria" id="caixaTer3" onclick="linkJupiter()">
+    <div class="bordaColorida" id="bordaColorida3"><div class="rodapeTer"><p>Saiba Mais!</p></div></div>
+    <div class="tituloTerciario">Jupiter</div>
+    <img src="img/jupiterjfif.jfif" class="imgCaixaTerciaria imagem">
+    <div class="caixabrancaTerciaria" id="gp2"></div>
+    <div class="rodapeCaixaTerciaria"><p class="textoTerciario">Clique para conhecer o maior planeta do Sistema Solar.</p></div>
+
+   
+   </div>
+
+   <div class="caixa-terciaria" id="caixaTer4" onclick="linkSaturno()">
+       
+    <div class="bordaColorida" id="bordaColorida4"><div class="rodapeTer"><p>Saiba Mais!</p></div></div>
+    <div class="tituloTerciario">Saturno</div>
+    <img src="img/UMAMERDA.jpg" class="imgCaixaTerciaria imagem">
+    <div class="caixabrancaTerciaria" id="gp2"></div>
+    <div class="rodapeCaixaTerciaria"><p class="textoTerciario">Saiba mais sobre o Senhor dos Anéis do Sistema Solar!</p></div>
+
+
+
+   </div>
+
+   <div class="caixa-terciaria" id="caixaTer5" >
+    <div class="bordaColorida" id="bordaColorida5"><div class="rodapeTer"><p>Saiba Mais!</p></div></div>
+    <div class="tituloTerciario">Urano</div>
+    <img src="img/urano.jpg" class="imgCaixaTerciaria imagem">
+    <div class="caixabrancaTerciaria" id="gp2"></div>
+    <div class="rodapeCaixaTerciaria"><p class="textoTerciario">Venha conhecer o gigante de gelo do Sistema Solar!</p></div>
+
+   </div>
+
+   <div class="caixa-terciaria" id="caixaTer6" onclick="linkMateria()">
+    <div class="bordaColorida" id="bordaColorida6"><div class="rodapeTer"><p>Saiba Mais!</p></div></div>
+    <div class="tituloTerciario">Matéria Escura</div>
+    <img src="img/matEscura2.jpg" class="imgCaixaTerciaria imagem">
+    <div class="caixabrancaTerciaria" id="gp1"></div>
+    <div class="rodapeCaixaTerciaria"><p class="textoTerciario">Clique aqui para conhecer mais sobre o maior mistério da Astrofísica!</p></div>
+ 
+   </div>
+
+</div>
+</div>
+    <div class="body2"></div>
+        <!-- Última parte -->      
+
+        <div class="caixa-mainULT">
+            <div class="subCaixa-mainULT">
+
+           <div class="titulo-ultimosULT">
+              <h1>Últimos Artigos</h1>
+            </div>
+
+            <div class="ULTcaixaBranca1 ULTcaixaBranca" onclick="linkMateria()">
+            <div class="zoom" id="caixaZoom3">
+            <img src="img/matEscura1.jpg" alt="" class="imagem">
+            </div>
+            <div id="rodape-imgPrincipal-MainUlT1">
+            <p class="titulo-rodapeULT">
+                Matéria Escura – O maior mistério da astrofísica.
+            <p class="subtitulo-rodapeULT">
+                A Matéria Escura constitui basicamente 80% da matéria do universo e, mesmo assim, os nossos cientistas ainda não tem certeza do que exatamente ela é. Venha saber mais sobre esse mistério!
+            </p>
+            </p></div>
+        
+        </div>
+      
+        <div class="ULTcaixaBranca2 ULTcaixaBranca" onclick="linkSol()">
+            <div class="zoom" id="caixaZoom3">
+        <img src="img/sol.jpg" alt="" class="imagem">
+        </div>
+        <div id="rodape-imgPrincipal-MainUlT2">
+        <p class="titulo-rodapeULT">
+            Sol - O imperador do sistema solar
+        <p class="subtitulo-rodapeULT">
+            Estrelas são grandes esferas de plasma, mantidas por sua própria gravidade. O Sol é a mais famosa estrela do nosso planeta, por ser o centro do sistema em que vivemos. Para saber mais sobre esse astro da Via Láctea, clique aqui!
+        </p>
+        </p></div>
+    </div>
+
+    <div class="ULTcaixaBranca3 ULTcaixaBranca">
+        <div class="zoom" id="caixaZoom3">
+    <img src="img/plutaojpg.jpg" class="imagem" alt="">
+    </div>
+    <div id="rodape-imgPrincipal-MainUlT3">
+    <p class="titulo-rodapeULT">
+    As Estrelas são corpos celestes que têm luz própria
+    <p class="subtitulo-rodapeULT">
+        Estrelas são grandes esferas de plasma, mantidas por sua própria gravidade. As estrelas emitem luz, calor e outros tipos de radiação em razão dos 
+    </p>
+    </p>
+</div>
+</div>
+
+
+<div class="abaYoutube">
+<div class="TituloVideosYT"><h1>Continue aprendendo com esses videos do Youtube:</h1></div>
+
+
+<div class="caixaYT" id="caixaYT1" onclick="linkYT1()">
+    <div class="sombraImg">
+    </div>
+        <img src="img/botaoPlay.png" class="botaoPlay">
+   
+    <img src="img/subImg/sistemaSolar2.jpg" class="imgYT">
+    <div class="subCaixa">
+        <h1 class="tituloYT">Um Tour Pelo Sistema Solar</h1>
+        <div class="paragrafoYT">Das temperaturas escaldantes de Vênus até o maior vulcão do Sistema Solar em Marte: é hora de conhecer a [...]!</div>
+    </div>
+</div>
+
+<div class="caixaYT" id="caixaYT2" onclick="linkYT2()">
+    <div class="sombraImg">
+    </div>
+        <img src="img/botaoPlay.png" class="botaoPlay">
+   
+    <img src="img/subImg/marte.webp" class="imgYT">
+    <div class="subCaixa">
+        <h1 class="tituloYT">Perseverance e a busca da vida em Marte | Nerdologia</h1>
+        <div class="paragrafoYT">No Nerdologia de hoje, vamos falar sobre o novo rover que a NASA mandou para Marte!</div>
+    </div>
+</div>
+
+<div class="caixaYT" id="caixaYT3" onclick="linkYT3()">
+    <div class="sombraImg">
+    </div>
+        <img src="img/botaoPlay.png" class="botaoPlay">
+   
+    <img src="img/subImg/jupiter.webp" class="imgYT">
+    <div class="subCaixa">
+        <h1 class="tituloYT">Júpiter - O Planeta Mais Antigo do Sistema Solar - Space Today TV Ep.745</h1>
+        <div class="paragrafoYT" id="diferentao">Será que todos os planetas do nosso Sistema Solar se formaram ao mesmo tempo? Será que [...]</div>
+    </div>
+</div>
+
+<div class="caixaYT" id="caixaYT4" onclick="linkYT4()">
+    <div class="sombraImg">
+    </div>
+        <img src="img/botaoPlay.png" class="botaoPlay">
+   
+    <img src="img/subImg/planetas.webp" class="imgYT">
+    <div class="subCaixa">
+        <h1 class="tituloYT">Como descobrimos novos planetas | Nerdologia</h1>
+        <div class="paragrafoYT">No Nerdologia de hoje vamos ver como estamos descobrindo e estudando novos planetas.</div>
+    </div>
+</div>
+
+<div class="caixaYT" id="caixaYT5" onclick="linkYT5()">
+    <div class="sombraImg">
+    </div>
+        <img src="img/botaoPlay.png" class="botaoPlay">
+   
+    <img src="img/subImg/estrelas.webp" class="imgYT">
+    <div class="subCaixa">
+        <h1 class="tituloYT">ESTRELAS IMPOSSÍVEIS</h1>
+        <div class="paragrafoYT">Você já ouviu falar de estrelas de nêutrons, pulsares e, é claro, do nosso Sol. Mas você já ouviu falar das estrelas mais [...]!</div>
+    </div>
+</div>
+
+<div class="caixaYT" id="caixaYT6" onclick="linkYT6()">
+    <div class="sombraImg">
+    </div>
+        <img src="img/botaoPlay.png" class="botaoPlay">
+   
+    <img src="img/subImg/urano.webp" class="imgYT">
+    <div class="subCaixa">
+        <h1 class="tituloYT" >O que a NASA descobriu sobre Urano até agora!r</h1>
+        <div class="paragrafoYT" id="diferentao">Levando o nome de um deus grego, Urano foi descoberto em 1781 pelo astrônomo Herschel William. O sétimo planeta foi [...]!</div>
+    </div>
+</div>
+</div>
+
+</div>
+
+
+</div>
+
+           <!--
+<img src="img/costelacoes.jfif" id="costelacao-img" alt="">
+            <div class="rodape-img" id="rodape-costelacao">Clique para saber mais sobre costelações</div>
+           -->
+    </main>
+
+    <br><br><br><br>
+    <div id="MAIN2"></div>
+    <div id="imagemCarrocel2"></div>
+    <div id="caixa-mainArtigo2"></div>
+    
+    <footer>
+        <div class="caixa-header">
+            <img src="img/logoOficial.png" class="logoRodape">
+            <div class="subRodape">
+                <nav class="principais-temas">
+                    <ul id="lista-TemasRodape">
+                        <li class="iten-lista" id="item1"><a href="sugestao.html" style="text-decoration:none">Sugestão de temas/Reportar Bugs</a></li>
+                        <li class="iten-lista" id="item2">Contato: orion.plataformaetec@gmail.com</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="subFooter">
+            <div class="caixaFooter"><p>© Copyright - ORION - Todos os direitos reservados</p></div>
+        </div>
+    </footer>
+    <script src="js/abas.js"></script>
+    <script src="js/mobile-navbar.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/carrossel.js"></script>
+</body>
+</html>
